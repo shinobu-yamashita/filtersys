@@ -2,6 +2,7 @@
 Thumbs.db
 *.log
 *.bak
+*.bk
 *.tmp
 temp/
 tmp/
