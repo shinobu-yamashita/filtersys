@@ -110,7 +110,7 @@
 			<fileset dir="build/classes"/>
 		</copy>
 	</target>
-<!-- ↑↑↑ Add 資源収集 ↑↑↑ -->              	
+<!-- ↑↑↑ ■Add 資源収集■ ↑↑↑ -->              	
              	
               	
 <!-- ↓↓↓ ■Add WARファイル作成■ ↓↓↓ -->              	
@@ -123,6 +123,6 @@
 		<mkdir dir="${war.home}"/>
 		<jar destfile="${war.home}/${web-app.name}.war" basedir="build/deploy" />
 	</target>
-<!-- ↑↑↑ Add WARファイル作成 ↑↑↑ -->              	
+<!-- ↑↑↑ ■Add WARファイル作成■ ↑↑↑ -->              	
 
 </project>
