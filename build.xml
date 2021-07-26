@@ -100,7 +100,7 @@
         </java>
     </target>
               	
-<!-- ↓↓↓ Add 資源収集 ↓↓↓ -->              	
+<!-- ↓↓↓ ■Add 資源収集■ ↓↓↓ -->              	
 	<target name="make-deploy-files">
 		<mkdir dir="build/deploy"/>
 		<copy todir="build/deploy">
@@ -113,7 +113,7 @@
 <!-- ↑↑↑ Add 資源収集 ↑↑↑ -->              	
              	
               	
-<!-- ↓↓↓ Add WARファイル作成 ↓↓↓ -->              	
+<!-- ↓↓↓ ■Add WARファイル作成■ ↓↓↓ -->              	
 	<!-- warファイルの設定 -->
 	<property name="war.home" value="build/war" />
 	<property name="web-app.name" value="filtersys" />
