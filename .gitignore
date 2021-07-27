@@ -7,3 +7,5 @@ Thumbs.db
 temp/
 tmp/
 build/
+
+build.xml
