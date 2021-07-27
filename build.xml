@@ -9,36 +9,39 @@
     <property name="debuglevel" value="source,lines,vars"/>
     <property name="target" value="1.8"/>
     <property name="source" value="1.8"/>
+
+	<property name="tomcat_home" value="C:\Program Files\Apache Software Foundation\Tomcat 8.5"/>
+
     <path id="Server Runtime [Tomcat8 (Java8)].libraryclasspath">
-        <pathelement location="../../tomcat/8/lib/annotations-api.jar"/>
-        <pathelement location="../../tomcat/8/lib/catalina-ant.jar"/>
-        <pathelement location="../../tomcat/8/lib/catalina-ha.jar"/>
-        <pathelement location="../../tomcat/8/lib/catalina-storeconfig.jar"/>
-        <pathelement location="../../tomcat/8/lib/catalina-tribes.jar"/>
-        <pathelement location="../../tomcat/8/lib/catalina.jar"/>
-        <pathelement location="../../tomcat/8/lib/ecj-4.6.3.jar"/>
-        <pathelement location="../../tomcat/8/lib/el-api.jar"/>
-        <pathelement location="../../tomcat/8/lib/jasper-el.jar"/>
-        <pathelement location="../../tomcat/8/lib/jasper.jar"/>
-        <pathelement location="../../tomcat/8/lib/jaspic-api.jar"/>
-        <pathelement location="../../tomcat/8/lib/jsp-api.jar"/>
-        <pathelement location="../../tomcat/8/lib/servlet-api.jar"/>
-        <pathelement location="../../tomcat/8/lib/tomcat-api.jar"/>
-        <pathelement location="../../tomcat/8/lib/tomcat-coyote.jar"/>
-        <pathelement location="../../tomcat/8/lib/tomcat-dbcp.jar"/>
-        <pathelement location="../../tomcat/8/lib/tomcat-i18n-de.jar"/>
-        <pathelement location="../../tomcat/8/lib/tomcat-i18n-es.jar"/>
-        <pathelement location="../../tomcat/8/lib/tomcat-i18n-fr.jar"/>
-        <pathelement location="../../tomcat/8/lib/tomcat-i18n-ja.jar"/>
-        <pathelement location="../../tomcat/8/lib/tomcat-i18n-ko.jar"/>
-        <pathelement location="../../tomcat/8/lib/tomcat-i18n-ru.jar"/>
-        <pathelement location="../../tomcat/8/lib/tomcat-i18n-zh-CN.jar"/>
-        <pathelement location="../../tomcat/8/lib/tomcat-jdbc.jar"/>
-        <pathelement location="../../tomcat/8/lib/tomcat-jni.jar"/>
-        <pathelement location="../../tomcat/8/lib/tomcat-util-scan.jar"/>
-        <pathelement location="../../tomcat/8/lib/tomcat-util.jar"/>
-        <pathelement location="../../tomcat/8/lib/tomcat-websocket.jar"/>
-        <pathelement location="../../tomcat/8/lib/websocket-api.jar"/>
+        <pathelement location="${tomcat_home}/lib/annotations-api.jar"/>
+        <pathelement location="${tomcat_home}/lib/catalina-ant.jar"/>
+        <pathelement location="${tomcat_home}/lib/catalina-ha.jar"/>
+        <pathelement location="${tomcat_home}/lib/catalina-storeconfig.jar"/>
+        <pathelement location="${tomcat_home}/lib/catalina-tribes.jar"/>
+        <pathelement location="${tomcat_home}/lib/catalina.jar"/>
+        <pathelement location="${tomcat_home}/lib/ecj-4.6.3.jar"/>
+        <pathelement location="${tomcat_home}/lib/el-api.jar"/>
+        <pathelement location="${tomcat_home}/lib/jasper-el.jar"/>
+        <pathelement location="${tomcat_home}/lib/jasper.jar"/>
+        <pathelement location="${tomcat_home}/lib/jaspic-api.jar"/>
+        <pathelement location="${tomcat_home}/lib/jsp-api.jar"/>
+        <pathelement location="${tomcat_home}/lib/servlet-api.jar"/>
+        <pathelement location="${tomcat_home}/lib/tomcat-api.jar"/>
+        <pathelement location="${tomcat_home}/lib/tomcat-coyote.jar"/>
+        <pathelement location="${tomcat_home}/lib/tomcat-dbcp.jar"/>
+        <pathelement location="${tomcat_home}/lib/tomcat-i18n-de.jar"/>
+        <pathelement location="${tomcat_home}/lib/tomcat-i18n-es.jar"/>
+        <pathelement location="${tomcat_home}/lib/tomcat-i18n-fr.jar"/>
+        <pathelement location="${tomcat_home}/lib/tomcat-i18n-ja.jar"/>
+        <pathelement location="${tomcat_home}/lib/tomcat-i18n-ko.jar"/>
+        <pathelement location="${tomcat_home}/lib/tomcat-i18n-ru.jar"/>
+        <pathelement location="${tomcat_home}/lib/tomcat-i18n-zh-CN.jar"/>
+        <pathelement location="${tomcat_home}/lib/tomcat-jdbc.jar"/>
+        <pathelement location="${tomcat_home}/lib/tomcat-jni.jar"/>
+        <pathelement location="${tomcat_home}/lib/tomcat-util-scan.jar"/>
+        <pathelement location="${tomcat_home}/lib/tomcat-util.jar"/>
+        <pathelement location="${tomcat_home}/lib/tomcat-websocket.jar"/>
+        <pathelement location="${tomcat_home}/lib/websocket-api.jar"/>
     </path>
     <path id="Web App ライブラリー.libraryclasspath">
         <pathelement location="src/main/webapp/WEB-INF/lib/jstl.jar"/>
