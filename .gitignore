@@ -1,5 +1,6 @@
 # .gitignore
 Thumbs.db
+build.xml
 *.log
 *.bak
 *.bk
@@ -7,5 +8,3 @@ Thumbs.db
 temp/
 tmp/
 build/
-
-build.xml
