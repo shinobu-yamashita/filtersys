@@ -42,6 +42,7 @@ public class loginServlet extends HttpServlet {
 		// JSPへのフォワード
 		RequestDispatcher rd = request.getRequestDispatcher(forward);
 		rd.forward(request, response);
+
 	}
 
 	/**
