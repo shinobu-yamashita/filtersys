@@ -44,9 +44,6 @@ public class loginServlet extends HttpServlet {
 		rd.forward(request, response);
 		
 		
-		
-		
-		
 	}
 
 	/**
