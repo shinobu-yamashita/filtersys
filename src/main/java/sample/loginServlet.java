@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * Servlet implementation class login
- * http://localhost:8080/filtersys/logon?action=init
+ * http://localhost:8080/filtersys/logon
  */
 //@WebServlet("/")
 public class loginServlet extends HttpServlet {
