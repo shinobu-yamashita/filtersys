@@ -9,7 +9,7 @@
     <property name="debuglevel" value="source,lines,vars"/>
     <property name="target" value="1.8"/>
     <property name="source" value="1.8"/>
-	<property name="tomcat_home" value="C:\pleiades\tomcat\8"/>
+	<property name="tomcat_home" value="C:\Program Files\Apache Software Foundation\Tomcat 8.5"/>
 
     <path id="Server Runtime [Tomcat8 (Java8)].libraryclasspath">
         <pathelement location="${tomcat_home}/lib/annotations-api.jar"/>
